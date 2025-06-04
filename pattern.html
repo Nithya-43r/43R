@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./pattern2.html" autocomplete="off">
+        <label for ="User">User Name:</label>
+        <input type="text" name="Username" id="User" pattern="[A-Za-z\s]+" title="enter valid A-Z and a-z only" required placeholder="User name"><br>
+        <label for ="User">Email id:</label>
+        <input type="text" name="email" id="User" pattern="[a-z0-9@!#$%^&*]+@[a-z]{4,5}\.[a-z]{2,3}" title="enter valid email only" required placeholder="name123@gmail.com"><br>
+        <label for ="User">Phone Number:</label>
+        <input type="text" name="phone number" id="User" pattern="[+][91\s]{2,3}[6-9][0-9]{9}" title="enter valid phone number" required placeholder="+91 XXXXXXXXXX"><br>
+        
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
